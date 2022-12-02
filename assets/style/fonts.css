@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto&display=swap');
+
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra-Heavy.eot');
+    src: url('../fonts/Effra-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra-Heavy.woff2') format('woff2'),
+        url('../fonts/Effra-Heavy.woff') format('woff'),
+        url('../fonts/Effra-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra-Medium.eot');
+    src: url('../fonts/Effra-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra-Medium.woff2') format('woff2'),
+        url('../fonts/Effra-Medium.woff') format('woff'),
+        url('../fonts/Effra-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra.eot');
+    src: url('../fonts/Effra.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra.woff2') format('woff2'),
+        url('../fonts/Effra.woff') format('woff'),
+        url('../fonts/Effra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra-Light.eot');
+    src: url('../fonts/Effra-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra-Light.woff2') format('woff2'),
+        url('../fonts/Effra-Light.woff') format('woff'),
+        url('../fonts/Effra-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra-Bold.eot');
+    src: url('../fonts/Effra-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra-Bold.woff2') format('woff2'),
+        url('../fonts/Effra-Bold.woff') format('woff'),
+        url('../fonts/Effra-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
