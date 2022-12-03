@@ -2,10 +2,12 @@
 
     .partners__grid{
         grid-template-columns: repeat(3,1fr);
+        gap: 20px;
     }
-    /* .heln{
-        grid-area: 1/1/1/4;
-    } */
+    .plans__grid{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+    }
     .nav__link:not(:last-child){
         margin-right: 15px;
     }
@@ -20,10 +22,7 @@
     .container{
         max-width: 792px;
     }
-    .plans__grid{
-        grid-template-columns: 1fr 1fr;
-        row-gap: 40px;
-    }
+
     .arrow{
         display: none;
     }
@@ -42,11 +41,20 @@
     }
 }
 @media (max-width: 810px){
+    .burger{
+        display: block;
+    }
     .header__nav{
         display: none;
     }
     .header__btns{
         display: none;
+    }
+    .desktop__logo{
+        display: none;
+    }
+    .mobile__logo{
+        display: block;
     }
     .tw-tab{
         left: -170px;
@@ -70,6 +78,7 @@
     .container{
         max-width: 708px;
     }
+
     .home__title, .nt__title{
         font-size: 48px;
     }
@@ -92,6 +101,37 @@
         grid-template-columns: 1fr 1fr;
         gap: 24px;
     }
+    .footer{
+        padding: 80px 0;
+    }
+    .darklogo{
+        max-width: 170px;
+    }
+    .footer__nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__links{
+        margin-top: 49px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__link{
+        margin: 40px 0 0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+    }
+    .footer__link:last-of-type{
+        margin: 40px 0 0;
+    }
+    .pros__text{
+        font-size: 48px;
+        line-height: 120%;
+    }
+
 }
 @media (max-width: 660px) {
     .plans__grid{
@@ -111,6 +151,12 @@
     .nt__tab::before{
         height: 70px;
     }
+    .grid__partner a{
+        width: 70%;
+    }
+    .grid__partner a > img{
+        width: 100%;
+    }
     
 }
 
@@ -121,10 +167,14 @@
         max-width: 359px;
         padding: 0 10px;
     }
+    .home{
+        height: 812px;
+    }
     .home__title{
         font-weight: 900;
         font-size: 36px;
         line-height: 112%;
+        margin: 80px auto 0;
     }
     .home__subtitle{
         font-weight: 400;
@@ -199,8 +249,26 @@
         justify-content: center;
     }
     .grid__partner a > img{
-        height: 70%;
-        width: 70%;
+        height: 100%;
+        width: 100%;
     }
-
+    .platforms{
+        padding: 80px 0;
+    }
+    .nt__title{
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .join-us__text{
+        font-size: 36px;
+        line-height: 112%;  
+    }
+    .join-us__btn{
+        margin: 32px auto 0;
+        width: 106px;
+        height: 44px;
+        font-size: 14px;
+        line-height: 140%;
+    }
 }
