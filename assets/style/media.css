@@ -137,9 +137,10 @@
     .plans__grid{
         grid-template-columns: 1fr;
     }
-    .subscription__container img{
+    .save{
         display: none;
     }
+
     .nt__box{
         width: 339px;
         height: 118px;
@@ -162,10 +163,10 @@
 
 
 
-@media (max-width: 376px) {
+@media (max-width: 375px) {
     .container{
-        max-width: 359px;
-        padding: 0 10px;
+        max-width: 347px;
+        padding: 0;
     }
     .home{
         height: 812px;
@@ -191,8 +192,18 @@
         font-size: 14px;
         line-height: 140%;
     }
+    .tabs__cp{
+        transform: scale(0.9);
+        position: relative;
+        width: 0px;
+        padding: 0;
+        margin: 220px auto 0;
+    }
     .no-tabs{
         padding: 80px 0;
+    }
+    .nt__container{
+        max-width: 351px;
     }
     .nt__title{
         font-style: normal;
@@ -201,8 +212,19 @@
         line-height: 112%;
     }
     .nt__box{
+        margin: 80px auto 0;
         width: 339px;
         height: 118px;
+    }
+    .nt__top-arrow{
+        display: block;
+        top: -50px;
+        right: 0;
+    }
+    .nt__bottom-arrow{
+        display: block;
+        bottom: -50px;
+        left: 0;
     }
     .nt__tab{
         width: 90%;
@@ -212,7 +234,7 @@
         line-height: 24px;
     }
     .nt__tab::before{
-        width: 20%;
+        width: 28%;
         height: 50%;
     }
     .nt__tab > svg{
@@ -220,15 +242,23 @@
         height: 27px;
     }
     .nt__subtitle{
+        margin: 80px auto 0;
         width: 90%;
         font-weight: 500;
         font-size: 14px;
         line-height: 150%;
     }
+    .pros {
+        padding: 80px 0;
+    }
     .pros__text{
         font-weight: 900;
         font-size: 36px;
         line-height: 43px;
+        padding: 0 12px;
+    }
+    .partners {
+        padding: 80px 0;
     }
     .partners__title{
         font-weight: 900;
@@ -239,9 +269,12 @@
     .partners__grid{
         grid-template-columns: repeat(2,1fr);
         gap: 14px;
+        padding: 0 3px;
     }
     .grid__partner{
-        padding: 25px 0;
+        width: 100%;
+        height: 74px;
+        padding: 0;
     }
     .grid__partner a{
         display: flex;
@@ -255,10 +288,67 @@
     .platforms{
         padding: 80px 0;
     }
+    .tweets{
+        padding-top: 32px;
+    }
+    .tweet:nth-child(1){
+        margin: 0;
+    }
+    .more__btn{
+        margin: 32px auto 0;
+        width: 152px;
+        height: 44px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 140%;
+    }
     .nt__title{
         font-weight: 900;
         font-size: 36px;
         line-height: 43px;
+    }
+    .subscription{
+        padding: 80px 15px;
+    }
+    .save__mobile{
+        display: block;
+        position: absolute;
+        left: 215px;
+        bottom: -60px;
+    }
+    .plans__grid{
+        margin-top: 80px;
+        row-gap: 24px;
+    }
+    .plan__card{
+        height: 602px;
+    }
+    .plan__pros{
+        margin-top: 14px;
+    }
+    .plan__desc{
+        padding-bottom: 24px;
+    }
+
+    .toggle__label{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    #subscription__type::before{
+        height: 44px;
+        top: 5px;
+    }
+    #subscription__type::after{
+        height: 28px;
+        width: 28px;
+        top: 13px;
+    }
+    #subscription__type:checked::after{
+        left: 189px;
+    }
+    .join-us{
+        padding: 80px 0;
     }
     .join-us__text{
         font-size: 36px;

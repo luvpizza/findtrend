@@ -7,6 +7,7 @@ html{
 }
 :root{
     --salad: #A8FF35;
+    --darksalad: #96e62f;
     --lightgrey: #F5F5F5;
 }
 *{
@@ -39,6 +40,9 @@ button{
 
 .white{
     color: #FFFFFF;
+}
+.grey{
+    color: #ADADAD;
 }
 /* end of unique */
 
@@ -299,6 +303,12 @@ button{
     position: absolute;
     z-index: 1;
 }
+.nt__top-arrow{
+    display: none;
+}
+.nt__bottom-arrow{
+    display: none;
+}
 .nt__left-arrow{
     left: -117px;
 }
@@ -339,9 +349,7 @@ button{
     line-height: 76px;
     color: #000000;
 }
-.grey{
-    color: #ADADAD;
-}
+
 /* end of pros section */
 
 /* partners section */
@@ -363,6 +371,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .15s;
 }
 /* end of partners section */
 
@@ -386,6 +395,7 @@ button{
     padding: 20% 0;
     background-color: #FFFFFF;
     border-radius: 8px;
+    transition: .15s;
 }
 .grid__platform img{
     height: auto;
@@ -447,9 +457,12 @@ button{
     font-size: 24px;
     line-height: 29px;
 }
-.subscription__container > img{
+.save{
     position: absolute;
     right: -112px;
+}
+.save__mobile{
+    display: none;
 }
 #subscription__type{
     appearance: none; 
@@ -481,6 +494,7 @@ button{
     left: 180px;
 }
 .toggle__label{
+    font-family: 'Inter', sans-serif;
     transition: .2s;
 }
 #subscription__type:checked ~ .toggle__label:first-of-type{
@@ -625,3 +639,15 @@ button{
 }
 
 /* end of footer section     */
+
+/* hover animations */
+.home__gs-button:hover{
+    background-color: var(--darksalad);
+}
+.grid__partner:hover{
+    background-color: var(--salad);
+}
+.grid__platform:hover{
+    background-color: var(--salad);
+}
+/* end of hover animations */
